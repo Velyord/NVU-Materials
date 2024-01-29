@@ -1,0 +1,10 @@
+imageFolder = fullfile(toolboxdir('vision'),'visiondata','bookcovers')
+imds = imageDatastore(imageFolder)
+imageLabeler(imds)
+imageFolder = fullfile(toolboxdir('vision'),'visiondata','bookcovers')
+imageLabeler(imageFolder)
+
+gTruth
+gTruth.DataSource
+gTruth.LabelDefinitions
+gTruth.LabelDefinitions.Hierarchy{1}
